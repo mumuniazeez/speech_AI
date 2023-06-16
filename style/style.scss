@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Trebuchet MS";
+}
+
+main{
+    .wrapper{
+        margin: 10px;
+        .record-value{
+            textarea{
+                width: 100%;
+                height: 80px;
+                resize: vertical;
+                padding: 10px;
+            }
+        }
+
+        .record-btn{
+            display: flex;
+            justify-content: center;
+            button{
+                background-color: white;
+                border: 2.5px solid black;
+                padding: 10px 20px;
+                border-radius: 15px;
+                color: black;
+                margin-top: 10px;
+                transition: all .5s ease;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+        .voice-select{
+            p{
+                font-size: 24pt;
+            }
+            select{
+                width: 100%;
+                height: 50px;
+            }
+        }
+
+        .convert-btn{
+            display: flex;
+            justify-content: center;
+
+            button{
+                background-color: white;
+                border: 2.5px solid black;
+                padding: 10px 20px;
+                border-radius: 15px;
+                color: black;
+                margin-top: 10px;
+                transition: all .5s ease;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
