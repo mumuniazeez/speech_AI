@@ -59,9 +59,8 @@ convertBtn.addEventListener("click", e => {
         }
     });
 
-    tss.speak(toSpeak)
-})
-
+    tss.speak(toSpeak);
+});
 
 
 window.onload = () => GetVoices();
